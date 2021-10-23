@@ -1,0 +1,673 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'i' ]
+2 info using npm@3.9.5
+3 info using node@v8.1.4
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly install normalizeTree
+8 silly loadCurrentTree Finishing
+9 silly loadIdealTree Starting
+10 silly install loadIdealTree
+11 silly cloneCurrentTree Starting
+12 silly install cloneCurrentTreeToIdealTree
+13 silly cloneCurrentTree Finishing
+14 silly loadShrinkwrap Starting
+15 silly install loadShrinkwrap
+16 silly loadShrinkwrap Finishing
+17 silly loadAllDepsIntoIdealTree Starting
+18 silly install loadAllDepsIntoIdealTree
+19 silly fetchNamedPackageData @babel/runtime
+20 silly mapToRegistry name @babel/runtime
+21 silly mapToRegistry scope (from package name) @babel
+22 verbose mapToRegistry no registry URL found in name for scope @babel
+23 silly mapToRegistry using default registry
+24 silly mapToRegistry registry https://registry.npmjs.org/
+25 silly mapToRegistry data Result {
+25 silly mapToRegistry   raw: '@babel/runtime',
+25 silly mapToRegistry   scope: '@babel',
+25 silly mapToRegistry   name: '@babel/runtime',
+25 silly mapToRegistry   rawSpec: '',
+25 silly mapToRegistry   spec: 'latest',
+25 silly mapToRegistry   type: 'tag' }
+26 silly mapToRegistry uri https://registry.npmjs.org/@babel%2fruntime
+27 silly fetchNamedPackageData services
+28 silly mapToRegistry name services
+29 silly mapToRegistry using default registry
+30 silly mapToRegistry registry https://registry.npmjs.org/
+31 silly mapToRegistry data Result {
+31 silly mapToRegistry   raw: 'services',
+31 silly mapToRegistry   scope: null,
+31 silly mapToRegistry   name: 'services',
+31 silly mapToRegistry   rawSpec: '',
+31 silly mapToRegistry   spec: 'latest',
+31 silly mapToRegistry   type: 'tag' }
+32 silly mapToRegistry uri https://registry.npmjs.org/services
+33 verbose request uri https://registry.npmjs.org/services
+34 verbose request no auth needed
+35 info attempt registry request try #1 at 12:01:10
+36 verbose request id 1584fec857c33d2d
+37 http request GET https://registry.npmjs.org/services
+38 verbose request uri https://registry.npmjs.org/@babel%2fruntime
+39 verbose request no auth needed
+40 info attempt registry request try #1 at 12:01:11
+41 verbose etag W/"27abcdbed3787474c50e1504ec32b8c8"
+42 verbose lastModified Tue, 14 Jul 2020 18:18:04 GMT
+43 http request GET https://registry.npmjs.org/@babel%2fruntime
+44 http 200 https://registry.npmjs.org/services
+45 verbose headers { date: 'Sat, 23 Oct 2021 10:01:27 GMT',
+45 verbose headers   'content-type': 'application/json; charset=UTF-8',
+45 verbose headers   'transfer-encoding': 'chunked',
+45 verbose headers   connection: 'keep-alive',
+45 verbose headers   'cf-ray': '6a2a1fc0efe2051d-JNB',
+45 verbose headers   'cache-control': 'public, max-age=300',
+45 verbose headers   etag: 'W/"9e390715e9950ba1bccd1137f943e3ef"',
+45 verbose headers   'last-modified': 'Sun, 27 May 2018 17:04:40 GMT',
+45 verbose headers   vary: 'accept-encoding, accept',
+45 verbose headers   'cf-cache-status': 'REVALIDATED',
+45 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+45 verbose headers   server: 'cloudflare',
+45 verbose headers   'content-encoding': 'gzip' }
+46 silly get cb [ 200,
+46 silly get   { date: 'Sat, 23 Oct 2021 10:01:27 GMT',
+46 silly get     'content-type': 'application/json; charset=UTF-8',
+46 silly get     'transfer-encoding': 'chunked',
+46 silly get     connection: 'keep-alive',
+46 silly get     'cf-ray': '6a2a1fc0efe2051d-JNB',
+46 silly get     'cache-control': 'public, max-age=300',
+46 silly get     etag: 'W/"9e390715e9950ba1bccd1137f943e3ef"',
+46 silly get     'last-modified': 'Sun, 27 May 2018 17:04:40 GMT',
+46 silly get     vary: 'accept-encoding, accept',
+46 silly get     'cf-cache-status': 'REVALIDATED',
+46 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+46 silly get     server: 'cloudflare',
+46 silly get     'content-encoding': 'gzip' } ]
+47 verbose get saving services to C:\Users\wilson\AppData\Roaming\npm-cache\registry.npmjs.org\services\.cache.json
+48 verbose correctMkdir C:\Users\wilson\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+49 silly resolveWithNewModule services@0.0.3 checking installable status
+50 silly cache add args [ 'services@0.0.3', null ]
+51 verbose cache add spec services@0.0.3
+52 silly cache add parsed spec Result {
+52 silly cache add   raw: 'services@0.0.3',
+52 silly cache add   scope: null,
+52 silly cache add   name: 'services',
+52 silly cache add   rawSpec: '0.0.3',
+52 silly cache add   spec: '0.0.3',
+52 silly cache add   type: 'version' }
+53 silly addNamed services@0.0.3
+54 verbose addNamed "0.0.3" is a plain semver version for services
+55 silly mapToRegistry name services
+56 silly mapToRegistry using default registry
+57 silly mapToRegistry registry https://registry.npmjs.org/
+58 silly mapToRegistry data Result {
+58 silly mapToRegistry   raw: 'services',
+58 silly mapToRegistry   scope: null,
+58 silly mapToRegistry   name: 'services',
+58 silly mapToRegistry   rawSpec: '',
+58 silly mapToRegistry   spec: 'latest',
+58 silly mapToRegistry   type: 'tag' }
+59 silly mapToRegistry uri https://registry.npmjs.org/services
+60 verbose addNameVersion registry:https://registry.npmjs.org/services not in flight; fetching
+61 verbose get https://registry.npmjs.org/services not expired, no request
+62 silly mapToRegistry name services
+63 silly mapToRegistry using default registry
+64 silly mapToRegistry registry https://registry.npmjs.org/
+65 silly mapToRegistry data Result {
+65 silly mapToRegistry   raw: 'services',
+65 silly mapToRegistry   scope: null,
+65 silly mapToRegistry   name: 'services',
+65 silly mapToRegistry   rawSpec: '',
+65 silly mapToRegistry   spec: 'latest',
+65 silly mapToRegistry   type: 'tag' }
+66 silly mapToRegistry uri https://registry.npmjs.org/services
+67 verbose addRemoteTarball https://registry.npmjs.org/services/-/services-0.0.3.tgz not in flight; adding
+68 verbose addRemoteTarball [ 'https://registry.npmjs.org/services/-/services-0.0.3.tgz',
+68 verbose addRemoteTarball   '337dfcae89a171a11fbfc1721b6962166bec0763' ]
+69 info retry fetch attempt 1 at 12:01:16
+70 info attempt registry request try #1 at 12:01:16
+71 http fetch GET https://registry.npmjs.org/services/-/services-0.0.3.tgz
+72 http fetch 200 https://registry.npmjs.org/services/-/services-0.0.3.tgz
+73 silly fetchAndShaCheck shasum 337dfcae89a171a11fbfc1721b6962166bec0763
+74 verbose addTmpTarball C:\Users\wilson\AppData\Local\Temp\npm-6820-e76a21da\registry.npmjs.org\services\-\services-0.0.3.tgz not in flight; adding
+75 verbose addTmpTarball already have metadata; skipping unpack for services@0.0.3
+76 verbose correctMkdir C:\Users\wilson\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+77 silly cache afterAdd services@0.0.3
+78 verbose afterAdd C:\Users\wilson\AppData\Roaming\npm-cache\services\0.0.3\package\package.json not in flight; writing
+79 verbose correctMkdir C:\Users\wilson\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+80 verbose afterAdd C:\Users\wilson\AppData\Roaming\npm-cache\services\0.0.3\package\package.json written
+81 http 200 https://registry.npmjs.org/@babel%2fruntime
+82 verbose headers { date: 'Sat, 23 Oct 2021 10:01:28 GMT',
+82 verbose headers   'content-type': 'application/json',
+82 verbose headers   'transfer-encoding': 'chunked',
+82 verbose headers   connection: 'keep-alive',
+82 verbose headers   'cf-ray': '6a2a1fc24eabf492-JNB',
+82 verbose headers   'cache-control': 'public, max-age=300',
+82 verbose headers   etag: 'W/"48e7622f3f31fee23cb6b2b126b31131"',
+82 verbose headers   'last-modified': 'Thu, 02 Sep 2021 21:39:29 GMT',
+82 verbose headers   vary: 'accept-encoding, accept',
+82 verbose headers   'cf-cache-status': 'REVALIDATED',
+82 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+82 verbose headers   'x-amz-replication-status': 'COMPLETED',
+82 verbose headers   server: 'cloudflare',
+82 verbose headers   'content-encoding': 'gzip' }
+83 silly get cb [ 200,
+83 silly get   { date: 'Sat, 23 Oct 2021 10:01:28 GMT',
+83 silly get     'content-type': 'application/json',
+83 silly get     'transfer-encoding': 'chunked',
+83 silly get     connection: 'keep-alive',
+83 silly get     'cf-ray': '6a2a1fc24eabf492-JNB',
+83 silly get     'cache-control': 'public, max-age=300',
+83 silly get     etag: 'W/"48e7622f3f31fee23cb6b2b126b31131"',
+83 silly get     'last-modified': 'Thu, 02 Sep 2021 21:39:29 GMT',
+83 silly get     vary: 'accept-encoding, accept',
+83 silly get     'cf-cache-status': 'REVALIDATED',
+83 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+83 silly get     'x-amz-replication-status': 'COMPLETED',
+83 silly get     server: 'cloudflare',
+83 silly get     'content-encoding': 'gzip' } ]
+84 verbose get saving @babel/runtime to C:\Users\wilson\AppData\Roaming\npm-cache\registry.npmjs.org\_40babel_252fruntime\.cache.json
+85 verbose correctMkdir C:\Users\wilson\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+86 silly resolveWithNewModule @babel/runtime@7.15.4 checking installable status
+87 silly cache add args [ '@babel/runtime@^7.1.2', null ]
+88 verbose cache add spec @babel/runtime@^7.1.2
+89 silly cache add parsed spec Result {
+89 silly cache add   raw: '@babel/runtime@^7.1.2',
+89 silly cache add   scope: '@babel',
+89 silly cache add   name: '@babel/runtime',
+89 silly cache add   rawSpec: '^7.1.2',
+89 silly cache add   spec: '>=7.1.2 <8.0.0',
+89 silly cache add   type: 'range' }
+90 silly addNamed @babel/runtime@>=7.1.2 <8.0.0
+91 verbose addNamed ">=7.1.2 <8.0.0" is a valid semver range for @babel/runtime
+92 silly addNameRange { name: '@babel/runtime',
+92 silly addNameRange   range: '>=7.1.2 <8.0.0',
+92 silly addNameRange   hasData: false }
+93 silly mapToRegistry name @babel/runtime
+94 silly mapToRegistry scope (from package name) @babel
+95 verbose mapToRegistry no registry URL found in name for scope @babel
+96 silly mapToRegistry using default registry
+97 silly mapToRegistry registry https://registry.npmjs.org/
+98 silly mapToRegistry data Result {
+98 silly mapToRegistry   raw: '@babel/runtime',
+98 silly mapToRegistry   scope: '@babel',
+98 silly mapToRegistry   name: '@babel/runtime',
+98 silly mapToRegistry   rawSpec: '',
+98 silly mapToRegistry   spec: 'latest',
+98 silly mapToRegistry   type: 'tag' }
+99 silly mapToRegistry uri https://registry.npmjs.org/@babel%2fruntime
+100 verbose addNameRange registry:https://registry.npmjs.org/@babel%2fruntime not in flight; fetching
+101 verbose get https://registry.npmjs.org/@babel%2fruntime not expired, no request
+102 silly addNameRange number 2 { name: '@babel/runtime',
+102 silly addNameRange   range: '>=7.1.2 <8.0.0',
+102 silly addNameRange   hasData: true }
+103 silly addNameRange versions [ '@babel/runtime',
+103 silly addNameRange   [ '7.0.0-beta.4',
+103 silly addNameRange     '7.0.0-beta.5',
+103 silly addNameRange     '7.0.0-beta.31',
+103 silly addNameRange     '7.0.0-beta.32',
+103 silly addNameRange     '7.0.0-beta.33',
+103 silly addNameRange     '7.0.0-beta.34',
+103 silly addNameRange     '7.0.0-beta.35',
+103 silly addNameRange     '7.0.0-beta.36',
+103 silly addNameRange     '7.0.0-beta.37',
+103 silly addNameRange     '7.0.0-beta.38',
+103 silly addNameRange     '7.0.0-beta.39',
+103 silly addNameRange     '7.0.0-beta.40',
+103 silly addNameRange     '7.0.0-beta.41',
+103 silly addNameRange     '7.0.0-beta.42',
+103 silly addNameRange     '7.0.0-beta.43',
+103 silly addNameRange     '7.0.0-beta.44',
+103 silly addNameRange     '7.0.0-beta.45',
+103 silly addNameRange     '7.0.0-beta.46',
+103 silly addNameRange     '7.0.0-beta.47',
+103 silly addNameRange     '7.0.0-beta.48',
+103 silly addNameRange     '7.0.0-beta.49',
+103 silly addNameRange     '7.0.0-beta.50',
+103 silly addNameRange     '7.0.0-beta.51',
+103 silly addNameRange     '7.0.0-beta.52',
+103 silly addNameRange     '7.0.0-beta.53',
+103 silly addNameRange     '7.0.0-beta.54',
+103 silly addNameRange     '7.0.0-beta.55',
+103 silly addNameRange     '7.0.0-beta.56',
+103 silly addNameRange     '7.0.0-rc.0',
+103 silly addNameRange     '7.0.0-rc.1',
+103 silly addNameRange     '7.0.0-rc.2',
+103 silly addNameRange     '7.0.0-rc.3',
+103 silly addNameRange     '7.0.0-rc.4',
+103 silly addNameRange     '7.0.0',
+103 silly addNameRange     '7.1.1',
+103 silly addNameRange     '7.1.2',
+103 silly addNameRange     '7.1.5',
+103 silly addNameRange     '7.2.0',
+103 silly addNameRange     '7.3.0',
+103 silly addNameRange     '7.3.1',
+103 silly addNameRange     '7.3.4',
+103 silly addNameRange     '7.4.0',
+103 silly addNameRange     '7.4.2',
+103 silly addNameRange     '7.4.3',
+103 silly addNameRange     '7.4.4',
+103 silly addNameRange     '7.4.5',
+103 silly addNameRange     '7.5.0',
+103 silly addNameRange     '7.5.1',
+103 silly addNameRange     '7.5.2',
+103 silly addNameRange     '7.5.3',
+103 silly addNameRange     '7.5.4',
+103 silly addNameRange     '7.5.5',
+103 silly addNameRange     '7.6.0',
+103 silly addNameRange     '7.6.2',
+103 silly addNameRange     '7.6.3',
+103 silly addNameRange     '7.7.0',
+103 silly addNameRange     '7.7.1',
+103 silly addNameRange     '7.7.2',
+103 silly addNameRange     '7.7.4',
+103 silly addNameRange     '7.7.5',
+103 silly addNameRange     '7.7.6',
+103 silly addNameRange     '7.7.7',
+103 silly addNameRange     '7.8.0',
+103 silly addNameRange     '7.8.3',
+103 silly addNameRange     '7.8.4',
+103 silly addNameRange     '7.8.7',
+103 silly addNameRange     '7.9.0',
+103 silly addNameRange     '7.9.2',
+103 silly addNameRange     '7.9.6',
+103 silly addNameRange     '7.10.0',
+103 silly addNameRange     '7.10.1',
+103 silly addNameRange     '7.10.2',
+103 silly addNameRange     '7.10.3',
+103 silly addNameRange     '7.10.4',
+103 silly addNameRange     '7.10.5',
+103 silly addNameRange     '7.11.0',
+103 silly addNameRange     '7.11.1',
+103 silly addNameRange     '7.11.2',
+103 silly addNameRange     '7.12.0',
+103 silly addNameRange     '7.12.1',
+103 silly addNameRange     '7.12.5',
+103 silly addNameRange     '7.12.13',
+103 silly addNameRange     '7.12.17',
+103 silly addNameRange     '7.12.18',
+103 silly addNameRange     '7.13.0',
+103 silly addNameRange     '7.13.1',
+103 silly addNameRange     '7.13.2',
+103 silly addNameRange     '7.13.4',
+103 silly addNameRange     '7.13.6',
+103 silly addNameRange     '7.13.7',
+103 silly addNameRange     '7.13.8',
+103 silly addNameRange     '7.13.9',
+103 silly addNameRange     '7.13.10',
+103 silly addNameRange     '7.13.16',
+103 silly addNameRange     '7.13.17',
+103 silly addNameRange     '7.14.0',
+103 silly addNameRange     '7.14.5',
+103 silly addNameRange     '7.14.6',
+103 silly addNameRange     '7.14.8',
+103 silly addNameRange     '7.15.3',
+103 silly addNameRange     ... 1 more item ] ]
+104 silly addNamed @babel/runtime@7.15.4
+105 verbose addNamed "7.15.4" is a plain semver version for @babel/runtime
+106 silly mapToRegistry name @babel/runtime
+107 silly mapToRegistry scope (from package name) @babel
+108 verbose mapToRegistry no registry URL found in name for scope @babel
+109 silly mapToRegistry using default registry
+110 silly mapToRegistry registry https://registry.npmjs.org/
+111 silly mapToRegistry data Result {
+111 silly mapToRegistry   raw: '@babel/runtime',
+111 silly mapToRegistry   scope: '@babel',
+111 silly mapToRegistry   name: '@babel/runtime',
+111 silly mapToRegistry   rawSpec: '',
+111 silly mapToRegistry   spec: 'latest',
+111 silly mapToRegistry   type: 'tag' }
+112 silly mapToRegistry uri https://registry.npmjs.org/@babel%2fruntime
+113 verbose addRemoteTarball https://registry.npmjs.org/@babel/runtime/-/runtime-7.15.4.tgz not in flight; adding
+114 verbose addRemoteTarball [ 'https://registry.npmjs.org/@babel/runtime/-/runtime-7.15.4.tgz',
+114 verbose addRemoteTarball   'fd17d16bfdf878e6dd02d19753a39fa8a8d9c84a' ]
+115 info retry fetch attempt 1 at 12:01:18
+116 info attempt registry request try #1 at 12:01:18
+117 http fetch GET https://registry.npmjs.org/@babel/runtime/-/runtime-7.15.4.tgz
+118 http fetch 200 https://registry.npmjs.org/@babel/runtime/-/runtime-7.15.4.tgz
+119 silly fetchAndShaCheck shasum fd17d16bfdf878e6dd02d19753a39fa8a8d9c84a
+120 verbose addTmpTarball C:\Users\wilson\AppData\Local\Temp\npm-6820-e76a21da\registry.npmjs.org\_40babel\runtime\-\runtime-7.15.4.tgz not in flight; adding
+121 verbose addTmpTarball already have metadata; skipping unpack for @babel/runtime@7.15.4
+122 verbose correctMkdir C:\Users\wilson\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+123 silly cache afterAdd @babel/runtime@7.15.4
+124 verbose afterAdd C:\Users\wilson\AppData\Roaming\npm-cache\@babel\runtime\7.15.4\package\package.json not in flight; writing
+125 verbose correctMkdir C:\Users\wilson\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+126 verbose afterAdd C:\Users\wilson\AppData\Roaming\npm-cache\@babel\runtime\7.15.4\package\package.json written
+127 silly fetchNamedPackageData regenerator-runtime
+128 silly mapToRegistry name regenerator-runtime
+129 silly mapToRegistry using default registry
+130 silly mapToRegistry registry https://registry.npmjs.org/
+131 silly mapToRegistry data Result {
+131 silly mapToRegistry   raw: 'regenerator-runtime',
+131 silly mapToRegistry   scope: null,
+131 silly mapToRegistry   name: 'regenerator-runtime',
+131 silly mapToRegistry   rawSpec: '',
+131 silly mapToRegistry   spec: 'latest',
+131 silly mapToRegistry   type: 'tag' }
+132 silly mapToRegistry uri https://registry.npmjs.org/regenerator-runtime
+133 verbose request uri https://registry.npmjs.org/regenerator-runtime
+134 verbose request no auth needed
+135 info attempt registry request try #1 at 12:01:24
+136 verbose etag W/"059a19b62e1488e4ceb396eb0942eede"
+137 verbose lastModified Tue, 21 Jul 2020 23:31:28 GMT
+138 http request GET https://registry.npmjs.org/regenerator-runtime
+139 http 200 https://registry.npmjs.org/regenerator-runtime
+140 verbose headers { date: 'Sat, 23 Oct 2021 10:01:37 GMT',
+140 verbose headers   'content-type': 'application/json',
+140 verbose headers   'transfer-encoding': 'chunked',
+140 verbose headers   connection: 'keep-alive',
+140 verbose headers   'cf-ray': '6a2a1fff5e1ef492-JNB',
+140 verbose headers   'cache-control': 'public, max-age=300',
+140 verbose headers   etag: 'W/"a2c475ee3230b827dea0f7af34d16e66"',
+140 verbose headers   'last-modified': 'Thu, 22 Jul 2021 22:29:18 GMT',
+140 verbose headers   vary: 'accept-encoding, accept',
+140 verbose headers   'cf-cache-status': 'REVALIDATED',
+140 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+140 verbose headers   'x-amz-replication-status': 'COMPLETED',
+140 verbose headers   server: 'cloudflare',
+140 verbose headers   'content-encoding': 'gzip' }
+141 silly get cb [ 200,
+141 silly get   { date: 'Sat, 23 Oct 2021 10:01:37 GMT',
+141 silly get     'content-type': 'application/json',
+141 silly get     'transfer-encoding': 'chunked',
+141 silly get     connection: 'keep-alive',
+141 silly get     'cf-ray': '6a2a1fff5e1ef492-JNB',
+141 silly get     'cache-control': 'public, max-age=300',
+141 silly get     etag: 'W/"a2c475ee3230b827dea0f7af34d16e66"',
+141 silly get     'last-modified': 'Thu, 22 Jul 2021 22:29:18 GMT',
+141 silly get     vary: 'accept-encoding, accept',
+141 silly get     'cf-cache-status': 'REVALIDATED',
+141 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+141 silly get     'x-amz-replication-status': 'COMPLETED',
+141 silly get     server: 'cloudflare',
+141 silly get     'content-encoding': 'gzip' } ]
+142 verbose get saving regenerator-runtime to C:\Users\wilson\AppData\Roaming\npm-cache\registry.npmjs.org\regenerator-runtime\.cache.json
+143 verbose correctMkdir C:\Users\wilson\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+144 silly resolveWithNewModule regenerator-runtime@0.13.9 checking installable status
+145 silly cache add args [ 'regenerator-runtime@^0.13.4', null ]
+146 verbose cache add spec regenerator-runtime@^0.13.4
+147 silly cache add parsed spec Result {
+147 silly cache add   raw: 'regenerator-runtime@^0.13.4',
+147 silly cache add   scope: null,
+147 silly cache add   name: 'regenerator-runtime',
+147 silly cache add   rawSpec: '^0.13.4',
+147 silly cache add   spec: '>=0.13.4 <0.14.0',
+147 silly cache add   type: 'range' }
+148 silly addNamed regenerator-runtime@>=0.13.4 <0.14.0
+149 verbose addNamed ">=0.13.4 <0.14.0" is a valid semver range for regenerator-runtime
+150 silly addNameRange { name: 'regenerator-runtime',
+150 silly addNameRange   range: '>=0.13.4 <0.14.0',
+150 silly addNameRange   hasData: false }
+151 silly mapToRegistry name regenerator-runtime
+152 silly mapToRegistry using default registry
+153 silly mapToRegistry registry https://registry.npmjs.org/
+154 silly mapToRegistry data Result {
+154 silly mapToRegistry   raw: 'regenerator-runtime',
+154 silly mapToRegistry   scope: null,
+154 silly mapToRegistry   name: 'regenerator-runtime',
+154 silly mapToRegistry   rawSpec: '',
+154 silly mapToRegistry   spec: 'latest',
+154 silly mapToRegistry   type: 'tag' }
+155 silly mapToRegistry uri https://registry.npmjs.org/regenerator-runtime
+156 verbose addNameRange registry:https://registry.npmjs.org/regenerator-runtime not in flight; fetching
+157 verbose get https://registry.npmjs.org/regenerator-runtime not expired, no request
+158 silly addNameRange number 2 { name: 'regenerator-runtime',
+158 silly addNameRange   range: '>=0.13.4 <0.14.0',
+158 silly addNameRange   hasData: true }
+159 silly addNameRange versions [ 'regenerator-runtime',
+159 silly addNameRange   [ '0.9.0',
+159 silly addNameRange     '0.9.1',
+159 silly addNameRange     '0.9.2',
+159 silly addNameRange     '0.9.3',
+159 silly addNameRange     '0.9.4',
+159 silly addNameRange     '0.9.5',
+159 silly addNameRange     '0.9.6',
+159 silly addNameRange     '0.10.0',
+159 silly addNameRange     '0.10.1',
+159 silly addNameRange     '0.10.2',
+159 silly addNameRange     '0.10.3',
+159 silly addNameRange     '0.10.4',
+159 silly addNameRange     '0.10.5',
+159 silly addNameRange     '0.11.0',
+159 silly addNameRange     '0.11.1',
+159 silly addNameRange     '0.12.0',
+159 silly addNameRange     '0.12.1',
+159 silly addNameRange     '0.13.0',
+159 silly addNameRange     '0.13.1',
+159 silly addNameRange     '0.13.2',
+159 silly addNameRange     '0.13.3',
+159 silly addNameRange     '0.13.4',
+159 silly addNameRange     '0.13.5',
+159 silly addNameRange     '0.13.6',
+159 silly addNameRange     '0.13.7',
+159 silly addNameRange     '0.13.8',
+159 silly addNameRange     '0.13.9' ] ]
+160 silly addNamed regenerator-runtime@0.13.9
+161 verbose addNamed "0.13.9" is a plain semver version for regenerator-runtime
+162 silly mapToRegistry name regenerator-runtime
+163 silly mapToRegistry using default registry
+164 silly mapToRegistry registry https://registry.npmjs.org/
+165 silly mapToRegistry data Result {
+165 silly mapToRegistry   raw: 'regenerator-runtime',
+165 silly mapToRegistry   scope: null,
+165 silly mapToRegistry   name: 'regenerator-runtime',
+165 silly mapToRegistry   rawSpec: '',
+165 silly mapToRegistry   spec: 'latest',
+165 silly mapToRegistry   type: 'tag' }
+166 silly mapToRegistry uri https://registry.npmjs.org/regenerator-runtime
+167 verbose addRemoteTarball https://registry.npmjs.org/regenerator-runtime/-/regenerator-runtime-0.13.9.tgz not in flight; adding
+168 verbose addRemoteTarball [ 'https://registry.npmjs.org/regenerator-runtime/-/regenerator-runtime-0.13.9.tgz',
+168 verbose addRemoteTarball   '8925742a98ffd90814988d7566ad30ca3b263b52' ]
+169 info retry fetch attempt 1 at 12:01:26
+170 info attempt registry request try #1 at 12:01:26
+171 http fetch GET https://registry.npmjs.org/regenerator-runtime/-/regenerator-runtime-0.13.9.tgz
+172 http fetch 200 https://registry.npmjs.org/regenerator-runtime/-/regenerator-runtime-0.13.9.tgz
+173 silly fetchAndShaCheck shasum 8925742a98ffd90814988d7566ad30ca3b263b52
+174 verbose addTmpTarball C:\Users\wilson\AppData\Local\Temp\npm-6820-e76a21da\registry.npmjs.org\regenerator-runtime\-\regenerator-runtime-0.13.9.tgz not in flight; adding
+175 verbose addTmpTarball already have metadata; skipping unpack for regenerator-runtime@0.13.9
+176 verbose correctMkdir C:\Users\wilson\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+177 silly cache afterAdd regenerator-runtime@0.13.9
+178 verbose afterAdd C:\Users\wilson\AppData\Roaming\npm-cache\regenerator-runtime\0.13.9\package\package.json not in flight; writing
+179 verbose correctMkdir C:\Users\wilson\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+180 verbose afterAdd C:\Users\wilson\AppData\Roaming\npm-cache\regenerator-runtime\0.13.9\package\package.json written
+181 silly fetchNamedPackageData underscore
+182 silly mapToRegistry name underscore
+183 silly mapToRegistry using default registry
+184 silly mapToRegistry registry https://registry.npmjs.org/
+185 silly mapToRegistry data Result {
+185 silly mapToRegistry   raw: 'underscore',
+185 silly mapToRegistry   scope: null,
+185 silly mapToRegistry   name: 'underscore',
+185 silly mapToRegistry   rawSpec: '',
+185 silly mapToRegistry   spec: 'latest',
+185 silly mapToRegistry   type: 'tag' }
+186 silly mapToRegistry uri https://registry.npmjs.org/underscore
+187 silly fetchNamedPackageData underscore.string
+188 silly mapToRegistry name underscore.string
+189 silly mapToRegistry using default registry
+190 silly mapToRegistry registry https://registry.npmjs.org/
+191 silly mapToRegistry data Result {
+191 silly mapToRegistry   raw: 'underscore.string',
+191 silly mapToRegistry   scope: null,
+191 silly mapToRegistry   name: 'underscore.string',
+191 silly mapToRegistry   rawSpec: '',
+191 silly mapToRegistry   spec: 'latest',
+191 silly mapToRegistry   type: 'tag' }
+192 silly mapToRegistry uri https://registry.npmjs.org/underscore.string
+193 verbose request uri https://registry.npmjs.org/underscore.string
+194 verbose request no auth needed
+195 info attempt registry request try #1 at 12:01:26
+196 verbose etag W/"89b8a03007c7c20336905ad64cee49ec"
+197 verbose lastModified Sat, 05 Jan 2019 17:12:22 GMT
+198 http request GET https://registry.npmjs.org/underscore.string
+199 verbose request uri https://registry.npmjs.org/underscore
+200 verbose request no auth needed
+201 info attempt registry request try #1 at 12:01:26
+202 verbose etag W/"13cb88602740bb8ff206ebbf5fc72a58"
+203 verbose lastModified Mon, 30 Mar 2020 21:28:57 GMT
+204 http request GET https://registry.npmjs.org/underscore
+205 http 304 https://registry.npmjs.org/underscore.string
+206 verbose headers { date: 'Sat, 23 Oct 2021 10:01:39 GMT',
+206 verbose headers   connection: 'keep-alive',
+206 verbose headers   'cf-ray': '6a2a200b2e30f492-JNB',
+206 verbose headers   'cache-control': 'public, max-age=300',
+206 verbose headers   etag: '"89b8a03007c7c20336905ad64cee49ec"',
+206 verbose headers   'last-modified': 'Sat, 05 Jan 2019 17:12:22 GMT',
+206 verbose headers   vary: 'Accept-Encoding',
+206 verbose headers   'cf-cache-status': 'REVALIDATED',
+206 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+206 verbose headers   server: 'cloudflare' }
+207 silly get cb [ 304,
+207 silly get   { date: 'Sat, 23 Oct 2021 10:01:39 GMT',
+207 silly get     connection: 'keep-alive',
+207 silly get     'cf-ray': '6a2a200b2e30f492-JNB',
+207 silly get     'cache-control': 'public, max-age=300',
+207 silly get     etag: '"89b8a03007c7c20336905ad64cee49ec"',
+207 silly get     'last-modified': 'Sat, 05 Jan 2019 17:12:22 GMT',
+207 silly get     vary: 'Accept-Encoding',
+207 silly get     'cf-cache-status': 'REVALIDATED',
+207 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+207 silly get     server: 'cloudflare' } ]
+208 verbose etag https://registry.npmjs.org/underscore.string from cache
+209 verbose get saving underscore.string to C:\Users\wilson\AppData\Roaming\npm-cache\registry.npmjs.org\underscore.string\.cache.json
+210 verbose correctMkdir C:\Users\wilson\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+211 silly resolveWithNewModule underscore.string@3.3.5 checking installable status
+212 silly cache add args [ 'underscore.string@>=2.0.0', null ]
+213 verbose cache add spec underscore.string@>=2.0.0
+214 silly cache add parsed spec Result {
+214 silly cache add   raw: 'underscore.string@>=2.0.0',
+214 silly cache add   scope: null,
+214 silly cache add   name: 'underscore.string',
+214 silly cache add   rawSpec: '>=2.0.0',
+214 silly cache add   spec: '>=2.0.0',
+214 silly cache add   type: 'range' }
+215 silly addNamed underscore.string@>=2.0.0
+216 verbose addNamed ">=2.0.0" is a valid semver range for underscore.string
+217 silly addNameRange { name: 'underscore.string', range: '>=2.0.0', hasData: false }
+218 silly mapToRegistry name underscore.string
+219 silly mapToRegistry using default registry
+220 silly mapToRegistry registry https://registry.npmjs.org/
+221 silly mapToRegistry data Result {
+221 silly mapToRegistry   raw: 'underscore.string',
+221 silly mapToRegistry   scope: null,
+221 silly mapToRegistry   name: 'underscore.string',
+221 silly mapToRegistry   rawSpec: '',
+221 silly mapToRegistry   spec: 'latest',
+221 silly mapToRegistry   type: 'tag' }
+222 silly mapToRegistry uri https://registry.npmjs.org/underscore.string
+223 verbose addNameRange registry:https://registry.npmjs.org/underscore.string not in flight; fetching
+224 verbose get https://registry.npmjs.org/underscore.string not expired, no request
+225 silly addNameRange number 2 { name: 'underscore.string', range: '>=2.0.0', hasData: true }
+226 silly addNameRange versions [ 'underscore.string',
+226 silly addNameRange   [ '0.9.2',
+226 silly addNameRange     '1.0.0',
+226 silly addNameRange     '1.1.3',
+226 silly addNameRange     '1.1.4',
+226 silly addNameRange     '1.1.5',
+226 silly addNameRange     '1.1.6',
+226 silly addNameRange     '2.0.0',
+226 silly addNameRange     '2.1.0',
+226 silly addNameRange     '2.1.1',
+226 silly addNameRange     '2.3.0',
+226 silly addNameRange     '2.3.1',
+226 silly addNameRange     '2.3.2',
+226 silly addNameRange     '2.2.1',
+226 silly addNameRange     '2.2.0-rc',
+226 silly addNameRange     '2.3.3',
+226 silly addNameRange     '2.4.0',
+226 silly addNameRange     '3.0.0',
+226 silly addNameRange     '3.0.1',
+226 silly addNameRange     '3.0.2',
+226 silly addNameRange     '3.0.3',
+226 silly addNameRange     '3.1.0',
+226 silly addNameRange     '3.1.1',
+226 silly addNameRange     '3.2.0',
+226 silly addNameRange     '3.2.1',
+226 silly addNameRange     '3.2.2',
+226 silly addNameRange     '3.2.3',
+226 silly addNameRange     '3.3.0',
+226 silly addNameRange     '3.3.2',
+226 silly addNameRange     '3.3.3',
+226 silly addNameRange     '3.3.4',
+226 silly addNameRange     '3.3.5' ] ]
+227 silly addNamed underscore.string@3.3.5
+228 verbose addNamed "3.3.5" is a plain semver version for underscore.string
+229 http 200 https://registry.npmjs.org/underscore
+230 verbose headers { date: 'Sat, 23 Oct 2021 10:01:39 GMT',
+230 verbose headers   'content-type': 'application/json',
+230 verbose headers   'transfer-encoding': 'chunked',
+230 verbose headers   connection: 'keep-alive',
+230 verbose headers   'cf-ray': '6a2a200b3fed051d-JNB',
+230 verbose headers   'cache-control': 'public, max-age=300',
+230 verbose headers   etag: 'W/"b61ac632f31812b2e119122d913efd3f"',
+230 verbose headers   'last-modified': 'Sun, 20 Jun 2021 16:05:40 GMT',
+230 verbose headers   vary: 'accept-encoding, accept',
+230 verbose headers   'cf-cache-status': 'REVALIDATED',
+230 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+230 verbose headers   server: 'cloudflare',
+230 verbose headers   'content-encoding': 'gzip' }
+231 silly get cb [ 200,
+231 silly get   { date: 'Sat, 23 Oct 2021 10:01:39 GMT',
+231 silly get     'content-type': 'application/json',
+231 silly get     'transfer-encoding': 'chunked',
+231 silly get     connection: 'keep-alive',
+231 silly get     'cf-ray': '6a2a200b3fed051d-JNB',
+231 silly get     'cache-control': 'public, max-age=300',
+231 silly get     etag: 'W/"b61ac632f31812b2e119122d913efd3f"',
+231 silly get     'last-modified': 'Sun, 20 Jun 2021 16:05:40 GMT',
+231 silly get     vary: 'accept-encoding, accept',
+231 silly get     'cf-cache-status': 'REVALIDATED',
+231 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+231 silly get     server: 'cloudflare',
+231 silly get     'content-encoding': 'gzip' } ]
+232 verbose get saving underscore to C:\Users\wilson\AppData\Roaming\npm-cache\registry.npmjs.org\underscore\.cache.json
+233 verbose correctMkdir C:\Users\wilson\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+234 silly mapToRegistry name underscore.string
+235 silly mapToRegistry using default registry
+236 silly mapToRegistry registry https://registry.npmjs.org/
+237 silly mapToRegistry data Result {
+237 silly mapToRegistry   raw: 'underscore.string',
+237 silly mapToRegistry   scope: null,
+237 silly mapToRegistry   name: 'underscore.string',
+237 silly mapToRegistry   rawSpec: '',
+237 silly mapToRegistry   spec: 'latest',
+237 silly mapToRegistry   type: 'tag' }
+238 silly mapToRegistry uri https://registry.npmjs.org/underscore.string
+239 verbose addRemoteTarball https://registry.npmjs.org/underscore.string/-/underscore.string-3.3.5.tgz not in flight; adding
+240 verbose addRemoteTarball [ 'https://registry.npmjs.org/underscore.string/-/underscore.string-3.3.5.tgz',
+240 verbose addRemoteTarball   'fc2ad255b8bd309e239cbc5816fd23a9b7ea4023' ]
+241 info retry fetch attempt 1 at 12:01:28
+242 info attempt registry request try #1 at 12:01:28
+243 http fetch GET https://registry.npmjs.org/underscore.string/-/underscore.string-3.3.5.tgz
+244 verbose stack Error: Missing required argument #1
+244 verbose stack     at andLogAndFinish (C:\Program Files\nodejs\node_modules\npm\lib\fetch-package-metadata.js:31:3)
+244 verbose stack     at fetchPackageMetadata (C:\Program Files\nodejs\node_modules\npm\lib\fetch-package-metadata.js:51:22)
+244 verbose stack     at resolveWithNewModule (C:\Program Files\nodejs\node_modules\npm\lib\install\deps.js:490:12)
+244 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\install\deps.js:491:7
+244 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\iferr\index.js:13:50
+244 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\fetch-package-metadata.js:37:12
+244 verbose stack     at addRequestedAndFinish (C:\Program Files\nodejs\node_modules\npm\lib\fetch-package-metadata.js:67:5)
+244 verbose stack     at returnAndAddMetadata (C:\Program Files\nodejs\node_modules\npm\lib\fetch-package-metadata.js:121:7)
+244 verbose stack     at pickVersionFromRegistryDocument (C:\Program Files\nodejs\node_modules\npm\lib\fetch-package-metadata.js:138:20)
+244 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\iferr\index.js:13:50
+245 verbose cwd I:\vanillajs-spa-master\vanilla
+246 error Windows_NT 6.1.7600
+247 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "i"
+248 error node v8.1.4
+249 error npm  v3.9.5
+250 error code EMISSINGARG
+251 error typeerror Error: Missing required argument #1
+251 error typeerror     at andLogAndFinish (C:\Program Files\nodejs\node_modules\npm\lib\fetch-package-metadata.js:31:3)
+251 error typeerror     at fetchPackageMetadata (C:\Program Files\nodejs\node_modules\npm\lib\fetch-package-metadata.js:51:22)
+251 error typeerror     at resolveWithNewModule (C:\Program Files\nodejs\node_modules\npm\lib\install\deps.js:490:12)
+251 error typeerror     at C:\Program Files\nodejs\node_modules\npm\lib\install\deps.js:491:7
+251 error typeerror     at C:\Program Files\nodejs\node_modules\npm\node_modules\iferr\index.js:13:50
+251 error typeerror     at C:\Program Files\nodejs\node_modules\npm\lib\fetch-package-metadata.js:37:12
+251 error typeerror     at addRequestedAndFinish (C:\Program Files\nodejs\node_modules\npm\lib\fetch-package-metadata.js:67:5)
+251 error typeerror     at returnAndAddMetadata (C:\Program Files\nodejs\node_modules\npm\lib\fetch-package-metadata.js:121:7)
+251 error typeerror     at pickVersionFromRegistryDocument (C:\Program Files\nodejs\node_modules\npm\lib\fetch-package-metadata.js:138:20)
+251 error typeerror     at C:\Program Files\nodejs\node_modules\npm\node_modules\iferr\index.js:13:50
+252 error typeerror This is an error with npm itself. Please report this error at:
+252 error typeerror     <http://github.com/npm/npm/issues>
+253 verbose exit [ 1, true ]
